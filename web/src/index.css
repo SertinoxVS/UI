@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://use.typekit.net/utd8qjh.css");
+@import url("https://use.typekit.net/sih4rzu.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+    
+@font-face {
+    font-family:"stratum-2-web-bold";
+    src:url("https://use.typekit.net/af/0ff66d/00000000000000007735f540/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/0ff66d/00000000000000007735f540/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/0ff66d/00000000000000007735f540/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+    font-family:"stratum-2-web-medium";
+    src:url("https://use.typekit.net/af/045ee2/00000000000000007735f542/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/045ee2/00000000000000007735f542/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/045ee2/00000000000000007735f542/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:500;font-stretch:normal;
+}
+    
+@font-face {
+    font-family:"stratum-2-web-regular";
+    src:url("https://use.typekit.net/af/ce6342/00000000000000007735f53f/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/ce6342/00000000000000007735f53f/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/ce6342/00000000000000007735f53f/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+    font-family: "Irongate";
+    src: url("./assets/fonts/IRONGATE.TTF");
+}
+
+@font-face {
+    font-family: "Mars";
+    src: url("./assets/fonts/Mars.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Mollen-Bold";
+    src: url("./assets/fonts/mollen-bold.otf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Mars-Bold";
+    src: url("./assets/fonts/MarsBold.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Mars-Light";
+    src: url("./assets/fonts/MarsThin.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "MRKMaston-Regular";
+    src: url("./assets/fonts/MRKMaston-Regular.ttf");
+}
+
+@font-face {
+    font-family: "MRKMaston-Bold";
+    src: url("./assets/fonts/MRKMaston-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Kizard";
+    src: url("./assets/fonts/kizard.otf");
+}
+
+@font-face {
+    font-family: "Brexter";
+    src: url("./assets/fonts/Brexter.otf");
+}
+
+
+
+
+/* SF-Pro */
+
+
+
+
+
+@font-face {
+    font-family: "SF-Pro";
+    src: url("./assets/fonts/SFPro/SF-Pro.ttf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-Bold";
+    src: url("./assets/fonts/SFPro/SF-Pro-Display-Bold.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-BoldItalic";
+    src: url("./assets/fonts/SFPro/SF-Pro-Display-BoldItalic.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-Light";
+    src: url("./assets/fonts/SFPro/SF-Pro-Display-Light.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-LightItalic";
+    src: url("./assets/fonts/SFPro/SF-Pro-Display-LightItalic.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-Medium";
+    src: url("./assets/fonts/SFPro/SF-Pro-Display-Medium.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-MediumItalic";
+    src: url("./assets/fonts/SFPro/SF-Pro-Display-MediumItalic.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-Regular";
+    src: url("./assets/fonts/SFPro/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-RegularItalic";
+    src: url("./assets/fonts/SFPro/SF-Pro-Display-RegularItalic.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Display-Semibold";
+    src: url("./assets/fonts/SFPro/SF-Pro-Display-Semibold.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Rounded-Ultralight";
+    src: url("./assets/fonts/SFPro/SF-Pro-Rounded-Ultralight.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Text-Light";
+    src: url("./assets/fonts/SFPro/SF-Pro-Text-Light.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Text-LightItalic";
+    src: url("./assets/fonts/SFPro/SF-Pro-Text-LightItalic.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Text-MediumItalic";
+    src: url("./assets/fonts/SFPro/SF-Pro-Text-MediumItalic.otf");
+}
+
+@font-face {
+    font-family: "SF-Pro-Text-RegularItalic";
+    src: url("./assets/fonts/SFPro/SF-Pro-Text-RegularItalic.otf");
+}

@@ -1,0 +1,22 @@
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #e4e4e4;
+}
+  
+*::-webkit-scrollbar {
+    width: 4px;
+}
+
+*::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #555554;
+    border-radius: 4px;
+}
+  
